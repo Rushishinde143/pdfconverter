@@ -1,0 +1,11 @@
+libraries = [
+    "Flask",
+    "Pillow",
+    "PyMuPDF",
+    "docx2pdf"
+]
+
+with open("requirements.txt", "w") as f:
+    f.write("\n".join(libraries))
+
+print("requirements.txt file has been generated with the necessary libraries.")
